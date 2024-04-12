@@ -12,8 +12,8 @@ public class Main {
         for(int i = 1; i <= n; i++) {
             star += "*";
             bw.write(star + "\n");
-            bw.flush();
         }
+        bw.flush();
         bw.close();
     }
 }
